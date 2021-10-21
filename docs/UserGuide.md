@@ -25,8 +25,7 @@ If you can type fast, CMM can get your contact management tasks done faster than
 
 3. Copy the file to the folder you want to use as the home folder for your AddressBook.
 
-4. Double-click the file to start the app. Initially, a popup asking to import CSV data would appear. To learn more about
-   importing CSV data, click [here](#importing-the-data-into-database). Otherwise, to quickly get started, simply click any button on the popup and a GUI similar to the screenshot below should appear in a few seconds. Note how the app contains some sample data.
+4. Double-click the file to start the app. Initially, a popup asking to import CSV data would appear. To learn more about importing CSV data, click [here](#importing-the-data-into-database). Otherwise, to quickly get started, simply click any button on the popup and a GUI similar to the screenshot below should appear in a few seconds. Note how the app contains some sample data.
    ![Ui](images/Ui.png)
 
 5. Type the command in the command box and press Enter to execute it. e.g. typing help and pressing Enter will open the help window.
@@ -171,8 +170,7 @@ Steps to Import from CSV file
 1. Ensure that the Excel file is a CSV file with semicolon delimited.
    Instructions on how to import to this file type can be found [here](https://ashwaniashwin.wordpress.com/2013/04/19/save-excel-file-as-a-csv-semicolon-delimited-file-along-with-unicode-encoding/)
 2. Ensure that the import file is named `import.csv` under the "data" folder found in the same directory as the CMM jar file
-3. Upon CMM application startup, a prompt will popup asking whether you want to import or not. If yes, the import will add on to the
-   existing CMM database. Else, nothing would be imported and CMM runs as per normal
+3. Upon CMM application startup, a prompt will popup asking whether you want to import or not. If yes, the import will add on to the existing CMM database. Else, nothing would be imported and CMM runs as per normal
 
 **Things to note**
 1. Currently, import is **irreversible**. Please double check before importing
@@ -189,12 +187,12 @@ Steps to Import from CSV file
 **Common Issues**
 
 1. `CSV file not found in data\import.csv` message was shown.
-   * This could either mean that
-     the file does not exist at the specified location, or the file was incorrectly named
+   * This could either mean that the file does not exist at the specified location, or the file was incorrectly named
 
 2. Data not imported despite correct import file placement and naming
    * File may not be in the correct CSV type. Please refer to [Import Setup Procedures](#importing-the-data) step 1
-     to correctly format your file.
+   to correctly format your file.
+
 3. Unable to understand why a specific row was not able to be imported
    * Detailed reasons for any import error can be found in the logs of the CMM
 
